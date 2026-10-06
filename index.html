@@ -1,0 +1,452 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="theme-color" content="#07080c">
+
+    <title>Abdullah • Birthday 07.10</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=Orbitron:wght@500;600;700;800;900&display=swap"
+        rel="stylesheet">
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <div id="loader">
+        <div class="loader-logo">A<span>/</span>A</div>
+        <div class="loader-line"><i></i></div>
+        <p>LOADING BIRTHDAY EXPERIENCE...</p>
+    </div>
+
+    <div class="noise"></div>
+    <div class="cursor-light"></div>
+
+    <header>
+        <div class="brand">
+            <span class="brand-dot"></span>
+            ABDULLAH<span>.07</span>
+        </div>
+
+        <div class="status">
+            <i></i> ONLINE
+        </div>
+    </header>
+
+
+    <main>
+
+        <!-- HERO -->
+        <section class="hero">
+
+            <div class="hero-copy">
+
+                <div class="tag">
+                    <span></span>
+                    SPECIAL EVENT • 07 OCTOBER
+                </div>
+
+                <h1>
+                    HAPPY
+                    <strong>BIRTHDAY</strong>
+                    <em>ABDULLAH</em>
+                </h1>
+
+                <p>
+                    Today isn't just another day.
+                    <b>It's Abdullah's day.</b>
+                </p>
+
+                <button class="primary" id="startBtn">
+                    START EXPERIENCE
+                    <b>→</b>
+                </button>
+
+            </div>
+
+
+            <div class="player-card">
+
+                <div class="card-head">
+                    <span>PLAYER PROFILE</span>
+                    <b>07 / 10</b>
+                </div>
+
+                <div class="portrait">
+                    <img src="abdullah1.jpeg" alt="Abdullah">
+
+                    <div class="portrait-scan"></div>
+                    <div class="target">+</div>
+
+                    <div class="portrait-name">
+                        <small>PLAYER</small>
+                        <strong>ABDULLAH</strong>
+                    </div>
+                </div>
+
+                <div class="stats">
+
+                    <div>
+                        <small>AGE</small>
+                        <b>LEGEND</b>
+                    </div>
+
+                    <div>
+                        <small>STATUS</small>
+                        <b>ONLINE</b>
+                    </div>
+
+                    <div>
+                        <small>XP</small>
+                        <b id="miniXP">0</b>
+                    </div>
+
+                </div>
+
+                <div class="xp">
+
+                    <div>
+                        <span>BIRTHDAY XP</span>
+                        <b id="xpText">0 / 100</b>
+                    </div>
+
+                    <div class="xp-track">
+                        <i id="xpBar"></i>
+                    </div>
+
+                </div>
+
+            </div>
+
+            <div class="scroll-indicator">
+                SCROLL TO EXPLORE
+                <span>↓</span>
+            </div>
+
+        </section>
+
+
+        <!-- INTRO -->
+        <section class="section reveal">
+
+            <div class="section-label">01 / BROTHER FILE</div>
+
+            <div class="intro-grid">
+
+                <div>
+                    <h2>
+                        FOR MY
+                        <span>BROTHER.</span>
+                    </h2>
+                </div>
+
+                <div class="intro-message">
+
+                    <p>
+                        Abdullah, tu chhota hai lekin ghar mein
+                        teri energy full-size hai. 😄
+                    </p>
+
+                    <p>
+                        Allah tumhe hamesha khush rakhe,
+                        sehat de, kamyabi de aur tumhari
+                        har achi wish puri kare.
+                    </p>
+
+                    <strong>
+                        Happy Birthday, little bro. ❤️
+                    </strong>
+
+                    <small>— AALIYAN</small>
+
+                </div>
+
+            </div>
+
+        </section>
+
+
+        <!-- OBJECTIVES -->
+        <section class="section reveal">
+
+            <div class="section-label">02 / BIRTHDAY MISSIONS</div>
+
+            <h2 class="section-title">
+                TODAY'S
+                <span>MISSIONS</span>
+            </h2>
+
+            <div class="mission-grid">
+
+                <article class="mission">
+                    <div class="mission-number">01</div>
+                    <h3>SMILE</h3>
+                    <p>Smile at least once today.</p>
+                    <button class="mission-btn">COMPLETE</button>
+                </article>
+
+                <article class="mission">
+                    <div class="mission-number">02</div>
+                    <h3>WISH</h3>
+                    <p>Make your birthday wish.</p>
+                    <button class="mission-btn">COMPLETE</button>
+                </article>
+
+                <article class="mission">
+                    <div class="mission-number">03</div>
+                    <h3>FUN</h3>
+                    <p>Collect your birthday XP.</p>
+                    <button class="mission-btn">COMPLETE</button>
+                </article>
+
+            </div>
+
+        </section>
+
+
+        <!-- CAKE -->
+        <section class="section reveal cake-section">
+
+            <div class="section-label">03 / BIRTHDAY CAKE</div>
+
+            <h2 class="section-title">
+                MAKE A
+                <span>WISH</span>
+            </h2>
+
+            <p class="description">
+                Tap all three candles.
+            </p>
+
+            <div class="cake">
+
+                <div class="cake-flame flame-one"></div>
+                <div class="cake-flame flame-two"></div>
+                <div class="cake-flame flame-three"></div>
+
+                <div class="cake-candles">
+                    <button data-flame="0"></button>
+                    <button data-flame="1"></button>
+                    <button data-flame="2"></button>
+                </div>
+
+                <div class="cake-cream"></div>
+
+                <div class="cake-body">
+                    <span>ABDULLAH</span>
+                </div>
+
+            </div>
+
+            <div class="cake-status" id="cakeStatus">
+                3 CANDLES REMAINING
+            </div>
+
+        </section>
+
+
+        <!-- MINI GAME -->
+        <section class="section reveal">
+
+            <div class="section-label">04 / MINI GAME</div>
+
+            <h2 class="section-title">
+                COLLECT
+                <span>THE CORES</span>
+            </h2>
+
+            <p class="description">
+                Tap every glowing core to earn XP.
+            </p>
+
+            <div class="game">
+
+                <div class="game-score">
+                    XP <strong id="gameXP">0</strong>
+                </div>
+
+                <button class="core core-1"></button>
+                <button class="core core-2"></button>
+                <button class="core core-3"></button>
+                <button class="core core-4"></button>
+                <button class="core core-5"></button>
+                <button class="core core-6"></button>
+
+                <div class="game-complete" id="gameComplete">
+                    COLLECT ALL CORES
+                </div>
+
+            </div>
+
+        </section>
+
+
+        <!-- PHOTO -->
+        <section class="section reveal">
+
+            <div class="section-label">05 / PLAYER ARCHIVE</div>
+
+            <h2 class="section-title">
+                ONE
+                <span>SPECIAL PHOTO</span>
+            </h2>
+
+            <div class="photo">
+
+                <img src="abdullah.jpeg" alt="Abdullah">
+
+                <div class="photo-cover">
+                    <div>PHOTO LOCKED</div>
+                    <strong>+</strong>
+                    <small>TAP TO REVEAL</small>
+                </div>
+
+            </div>
+
+        </section>
+
+
+        <!-- ACHIEVEMENTS -->
+        <section class="section reveal">
+
+            <div class="section-label">06 / ACHIEVEMENTS</div>
+
+            <h2 class="section-title">
+                BROTHER
+                <span>BADGES</span>
+            </h2>
+
+            <div class="achievements">
+
+                <div class="achievement" data-level="20">
+                    <div class="achievement-icon">✦</div>
+                    <strong>SMILE MASTER</strong>
+                    <small>20 XP</small>
+                </div>
+
+                <div class="achievement" data-level="40">
+                    <div class="achievement-icon">◆</div>
+                    <strong>GAME MASTER</strong>
+                    <small>40 XP</small>
+                </div>
+
+                <div class="achievement" data-level="60">
+                    <div class="achievement-icon">★</div>
+                    <strong>LITTLE HERO</strong>
+                    <small>60 XP</small>
+                </div>
+
+                <div class="achievement" data-level="100">
+                    <div class="achievement-icon">♛</div>
+                    <strong>ULTIMATE BRO</strong>
+                    <small>100 XP</small>
+                </div>
+
+            </div>
+
+        </section>
+
+
+        <!-- GIFTS -->
+        <section class="section reveal">
+
+            <div class="section-label">07 / SECRET GIFTS</div>
+
+            <h2 class="section-title">
+                CHOOSE
+                <span>ONE BOX</span>
+            </h2>
+
+            <div class="gift-grid">
+
+                <button class="gift" data-message="🎮 GAMING MODE: ACTIVATED! Aaj full gaming allowed.">
+                    <span>?</span>
+                    <small>BOX 01</small>
+                </button>
+
+                <button class="gift" data-message="🎂 BIRTHDAY CAKE UNLOCKED! Ab celebration officially start hai.">
+                    <span>?</span>
+                    <small>BOX 02</small>
+                </button>
+
+                <button class="gift"
+                    data-message="❤️ Allah tumhe hamesha khush rakhe. Happy Birthday mere chhote bhai! — Aaliyan">
+                    <span>?</span>
+                    <small>BOX 03</small>
+                </button>
+
+            </div>
+
+        </section>
+
+
+        <!-- FINAL -->
+        <section class="final">
+
+            <div class="final-content">
+
+                <div class="final-stars">✦ ✧ ✦ ✧ ✦</div>
+
+                <small>MISSION COMPLETE</small>
+
+                <h2>
+                    HAPPY
+                    <span>BIRTHDAY</span>
+                    ABDULLAH
+                </h2>
+
+                <p>
+                    Allah tumhari zindagi ko khushiyon,
+                    sehat aur kamyabi se bhar de.
+                    Hamesha haste raho, khelte raho
+                    aur aise hi awesome raho.
+                </p>
+
+                <strong>— AALIYAN ❤️</strong>
+
+                <button id="celebrate">
+                    FINAL CELEBRATION 🎉
+                </button>
+
+            </div>
+
+        </section>
+
+    </main>
+
+
+    <!-- MODAL -->
+    <div class="modal" id="modal">
+
+        <div class="modal-box">
+
+            <button class="close" id="close">×</button>
+
+            <div class="modal-gift">🎁</div>
+
+            <small>SURPRISE UNLOCKED</small>
+
+            <h2>FOR ABDULLAH</h2>
+
+            <p id="modalMessage"></p>
+
+            <button id="modalCelebrate">
+                CELEBRATE
+            </button>
+
+        </div>
+
+    </div>
+
+
+    <script src="script.js"></script>
+
+</body>
+
+</html>
